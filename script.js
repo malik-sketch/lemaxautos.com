@@ -13,6 +13,11 @@ document.querySelector('#login-btn').onclick = () =>{
 document.querySelector('#close-login-form').onclick = () =>{
   document.querySelector('.login-form-container').classList.remove('active');
 }
+window.onload = () =>{
+menu.classList.add('active');
+
+
+}
 
 window.onscroll = () =>{
 
